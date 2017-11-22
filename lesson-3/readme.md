@@ -23,3 +23,31 @@ npm run dev
   - функции из аргументов `then` вызываются как у настоящего промиса;
   - можно составить then-цепочку, возвращая на каждом шаге промисы или не-промисы.
 - Сделать то же самое через `new Promise` и больше никогда не писать промис-обертки руками.
+
+Официальный тест-кейс:
+```js
+requestPromise('www.google.ru')
+  .then(res1 => console.log('ok google', res1))
+  .then(() => 'https://mail.ru')
+  .then(url => requestPromise(url))
+  .then(res2 => console.log('ok mail', res2));
+// ok google <google.ru response>
+// ok mail <mail.ru response>
+
+requestPromise('123123').then(
+  () => console.log('ok'),
+  err => console.log('err', err)
+).then(
+  () => console.log('rejection handled')
+);
+// err <err>
+// rejection handled
+
+requestPromise('123123').then(
+  () => console.log('ok')
+).then(
+  () => console.log('rejection handled')
+  () => console.log('error propagated')
+);
+// error propagated
+```
