@@ -1,0 +1,29 @@
+{
+  "name": "hse-data-journalism-and-visualization",
+  "version": "1.0.0",
+  "description": "## План",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack --watch & http-server . -p 3000",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thoughtspile/hse-dj.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thoughtspile/hse-dj/issues"
+  },
+  "homepage": "https://github.com/thoughtspile/hse-dj#readme",
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "http-server": "^0.10.0",
+    "lodash": "^4.17.4",
+    "webpack": "^3.8.1"
+  }
+}
