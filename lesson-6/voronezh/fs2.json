@@ -1,0 +1,2181 @@
+{
+  "meta": {
+    "code": 200,
+    "requestId": "5a8146d7f594df18f4c1f92c"
+  },
+  "response": {
+    "group": {
+      "annotatedGroupName": {
+        "text": "Coffee",
+        "entities": [
+          {
+            "indices": [
+              0,
+              6
+            ],
+            "id": "coffee"
+          }
+        ]
+      },
+      "activeFilters": {
+        "refinements": [],
+        "intent": {
+          "id": "coffee",
+          "value": "Coffee"
+        }
+      },
+      "results": [
+        {
+          "displayType": "headerAndPanels",
+          "header": "Just show me:",
+          "pivots": [
+            {
+              "id": "5a8146d76eda026f27dec239",
+              "text": "Coffeeshops with WiFi",
+              "entities": [],
+              "activeFilters": {
+                "subintent": {
+                  "id": "coffee-work",
+                  "value": "Coffeeshops with WiFi"
+                },
+                "refinements": [],
+                "intent": {
+                  "id": "coffee",
+                  "value": "Coffee"
+                }
+              },
+              "pushView": true,
+              "pivotImage": {
+                "id": "54b7f536498e625186593a5c",
+                "createdAt": 1421342006,
+                "prefix": "https:\/\/igx.4sqi.net\/img\/general\/",
+                "suffix": "\/317464_StuH-EPftPLGUFYDsED3ItpBiDg6_GINoS853aOHfqw.jpg",
+                "width": 1440,
+                "height": 1920,
+                "visibility": "public"
+              }
+            },
+            {
+              "id": "5a8146d76eda026f27dec23a",
+              "text": "Coffee Outdoors",
+              "entities": [],
+              "activeFilters": {
+                "subintent": {
+                  "id": "coffee-outdoor",
+                  "value": "Coffee Outdoors"
+                },
+                "refinements": [],
+                "intent": {
+                  "id": "coffee",
+                  "value": "Coffee"
+                }
+              },
+              "pushView": true,
+              "pivotImage": {
+                "id": "501be4bae4b0d836e509f5be",
+                "createdAt": 1344005306,
+                "prefix": "https:\/\/igx.4sqi.net\/img\/general\/",
+                "suffix": "\/Aa9yii5aytfZ7nM_WJJX_mB5jvYhm4N1DfOYhx2m77s.jpg",
+                "width": 540,
+                "height": 540,
+                "visibility": "public"
+              }
+            },
+            {
+              "id": "5a8146d76eda026f27dec23b",
+              "text": "Coffee & Tea",
+              "entities": [],
+              "activeFilters": {
+                "subintent": {
+                  "id": "coffeetea",
+                  "value": "Coffee & Tea"
+                },
+                "refinements": [],
+                "intent": {
+                  "id": "coffee",
+                  "value": "Coffee"
+                }
+              },
+              "pushView": true,
+              "pivotImage": {
+                "id": "5518d568498e864600ae75b1",
+                "createdAt": 1427690856,
+                "prefix": "https:\/\/igx.4sqi.net\/img\/general\/",
+                "suffix": "\/51936438_TucNrnWgIaNlDJ18anN0b3WBbk7F5oYt4LrdCzXN5xI.jpg",
+                "width": 1917,
+                "height": 1440,
+                "visibility": "public"
+              }
+            },
+            {
+              "id": "5a8146d76eda026f27dec23c",
+              "text": "Coffee & Tea",
+              "entities": [],
+              "activeFilters": {
+                "subintent": {
+                  "id": "coffeeandtea",
+                  "value": "Coffee & Tea"
+                },
+                "refinements": [],
+                "intent": {
+                  "id": "coffee",
+                  "value": "Coffee"
+                }
+              },
+              "pushView": true,
+              "pivotImage": {
+                "id": "5518d568498e864600ae75b1",
+                "createdAt": 1427690856,
+                "prefix": "https:\/\/igx.4sqi.net\/img\/general\/",
+                "suffix": "\/51936438_TucNrnWgIaNlDJ18anN0b3WBbk7F5oYt4LrdCzXN5xI.jpg",
+                "width": 1917,
+                "height": 1440,
+                "visibility": "public"
+              }
+            }
+          ]
+        },
+        {
+          "displayType": "venue",
+          "venue": {
+            "id": "57697eb1498e1f09162f4eab",
+            "name": "Ptichka Coffee",
+            "location": {
+              "address": "ул. Комиссаржевской, 4",
+              "lat": 51.670079963910936,
+              "lng": 39.207308292388916,
+              "labeledLatLngs": [
+                {
+                  "label": "display",
+                  "lat": 51.670079963910936,
+                  "lng": 39.207308292388916
+                }
+              ],
+              "postalCode": "394036",
+              "cc": "RU",
+              "city": "Voronezh",
+              "state": "Voronezh Oblast",
+              "country": "Russia",
+              "contextLine": "Voronezh, Russia",
+              "contextGeoId": 72057594038399981,
+              "formattedAddress": [
+                "<span itemprop=\"streetAddress\">&#1091;&#1083;. &#1050;&#1086;&#1084;&#1080;&#1089;&#1089;&#1072;&#1088;&#1078;&#1077;&#1074;&#1089;&#1082;&#1086;&#1081;, 4<\/span>",
+                "<span itemprop=\"postalCode\">394036<\/span>, <span itemprop=\"addressLocality\">Voronezh<\/span>",
+                "Russia"
+              ]
+            },
+            "canonicalUrl": "https:\/\/foursquare.com\/v\/ptichka-coffee\/57697eb1498e1f09162f4eab",
+            "canonicalPath": "\/v\/ptichka-coffee\/57697eb1498e1f09162f4eab",
+            "categories": [
+              {
+                "id": "4bf58dd8d48988d1e0931735",
+                "name": "Coffee Shop",
+                "pluralName": "Coffee Shops",
+                "shortName": "Coffee Shop",
+                "icon": {
+                  "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/coffeeshop_",
+                  "mapPrefix": "https:\/\/ss3.4sqi.net\/img\/categories_map\/food\/coffeeshop",
+                  "suffix": ".png"
+                },
+                "primary": true
+              }
+            ],
+            "verified": false,
+            "restricted": true,
+            "stats": {
+              "checkinsCount": 395,
+              "usersCount": 211,
+              "tipCount": 10
+            },
+            "price": {
+              "tier": 1,
+              "message": "Cheap",
+              "currency": "\u20bd"
+            },
+            "dislike": false,
+            "ok": false,
+            "rating": 7.8,
+            "ratingColor": "C5DE35",
+            "ratingSignals": 54,
+            "allowMenuUrlEdit": true,
+            "beenHere": {
+              "count": 0,
+              "marked": false,
+              "lastCheckinExpiredAt": 0
+            }
+          },
+          "id": "5a8146d76eda026f27dec227",
+          "photo": {
+            "id": "5963d1464f0e58494abdd3e3",
+            "createdAt": 1499713862,
+            "prefix": "https:\/\/igx.4sqi.net\/img\/general\/",
+            "suffix": "\/223333231_Wxv51ciAaxaghKzN0rTiH3QQMdQIs3elDgccJBVbaFc.jpg",
+            "width": 1920,
+            "height": 1280,
+            "user": {
+              "id": "223333231",
+              "firstName": "Tati",
+              "lastName": "Danina",
+              "gender": "female",
+              "canonicalUrl": "https:\/\/foursquare.com\/user\/223333231",
+              "canonicalPath": "\/user\/223333231",
+              "photo": {
+                "prefix": "https:\/\/igx.4sqi.net\/img\/user\/",
+                "suffix": "\/223333231-NCO0QRHFGEY4WM5Y.jpg"
+              },
+              "isAnonymous": false
+            },
+            "visibility": "public"
+          },
+          "snippets": {
+            "count": 1,
+            "items": [
+              {
+                "detail": {
+                  "type": "tip",
+                  "object": {
+                    "id": "59165b0e065ef55b0ec99d11",
+                    "createdAt": 1494637326,
+                    "text": "По-моему, лучшая кофейня Воронежа. Десерты на уровне. 👍🏼👍🏼👍🏼",
+                    "type": "user",
+                    "canonicalUrl": "https:\/\/foursquare.com\/item\/59165b0e065ef55b0ec99d11",
+                    "canonicalPath": "\/item\/59165b0e065ef55b0ec99d11",
+                    "logView": true,
+                    "agreeCount": 2,
+                    "disagreeCount": 0,
+                    "lastVoteText": "Upvoted Nov 16, 2017",
+                    "lastUpvoteTimestamp": 1510832637,
+                    "user": {
+                      "id": "20743551",
+                      "firstName": "Eugeniusz B-G",
+                      "gender": "male",
+                      "canonicalUrl": "https:\/\/foursquare.com\/user\/20743551",
+                      "canonicalPath": "\/user\/20743551",
+                      "photo": {
+                        "prefix": "https:\/\/igx.4sqi.net\/img\/user\/",
+                        "suffix": "\/PGJIYZJYZ53KFUGD.jpg"
+                      },
+                      "isAnonymous": false
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "displayType": "venue",
+          "venue": {
+            "id": "4d4e9ba123a76dcb5b6461dc",
+            "name": "Jumanji",
+            "location": {
+              "address": "ТЦ «Петровский пассаж»",
+              "crossStreet": "ул. 20-летия ВЛКСМ, 54а",
+              "lat": 51.6735531683925,
+              "lng": 39.212608337402344,
+              "labeledLatLngs": [
+                {
+                  "label": "display",
+                  "lat": 51.6735531683925,
+                  "lng": 39.212608337402344
+                }
+              ],
+              "cc": "RU",
+              "city": "Voronezh",
+              "state": "Voronezh Oblast",
+              "country": "Russia",
+              "contextLine": "Voronezh, Russia",
+              "contextGeoId": 72057594038399981,
+              "formattedAddress": [
+                "<span itemprop=\"streetAddress\">&#1058;&#1062; &laquo;&#1055;&#1077;&#1090;&#1088;&#1086;&#1074;&#1089;&#1082;&#1080;&#1081; &#1087;&#1072;&#1089;&#1089;&#1072;&#1078;&raquo;<\/span> (&#1091;&#1083;. 20-&#1083;&#1077;&#1090;&#1080;&#1103; &#1042;&#1051;&#1050;&#1057;&#1052;, 54&#1072;)",
+                "<span itemprop=\"addressLocality\">Voronezh<\/span>",
+                "Russia"
+              ]
+            },
+            "canonicalUrl": "https:\/\/foursquare.com\/v\/jumanji\/4d4e9ba123a76dcb5b6461dc",
+            "canonicalPath": "\/v\/jumanji\/4d4e9ba123a76dcb5b6461dc",
+            "categories": [
+              {
+                "id": "4bf58dd8d48988d16d941735",
+                "name": "Café",
+                "pluralName": "Cafés",
+                "shortName": "Café",
+                "icon": {
+                  "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/cafe_",
+                  "mapPrefix": "https:\/\/ss3.4sqi.net\/img\/categories_map\/food\/cafe",
+                  "suffix": ".png"
+                },
+                "primary": true
+              }
+            ],
+            "verified": false,
+            "restricted": true,
+            "stats": {
+              "checkinsCount": 3832,
+              "usersCount": 1457,
+              "tipCount": 58
+            },
+            "urlSig": "ol+QROw9H45heFv5EXDD4oXpV3Y=",
+            "price": {
+              "tier": 1,
+              "message": "Cheap",
+              "currency": "\u20bd"
+            },
+            "dislike": false,
+            "ok": false,
+            "rating": 7.7,
+            "ratingColor": "C5DE35",
+            "ratingSignals": 240,
+            "allowMenuUrlEdit": true,
+            "beenHere": {
+              "count": 0,
+              "marked": false,
+              "lastCheckinExpiredAt": 0
+            }
+          },
+          "id": "5a8146d76eda026f27dec228",
+          "photo": {
+            "id": "518d3349498e7ca772506d8e",
+            "createdAt": 1368208201,
+            "prefix": "https:\/\/igx.4sqi.net\/img\/general\/",
+            "suffix": "\/35209811_FyY4bocmcejrYxyhisiozHimuSlCCmVLinrPouE9wZw.jpg",
+            "width": 1440,
+            "height": 1920,
+            "user": {
+              "id": "35209811",
+              "firstName": "Barton",
+              "lastName": "Smith",
+              "gender": "male",
+              "canonicalUrl": "https:\/\/foursquare.com\/user\/35209811",
+              "canonicalPath": "\/user\/35209811",
+              "photo": {
+                "prefix": "https:\/\/igx.4sqi.net\/img\/user\/",
+                "suffix": "\/35209811-LUSB4RL3WEODIXQV.jpg"
+              },
+              "isAnonymous": false
+            },
+            "visibility": "public"
+          },
+          "snippets": {
+            "count": 1,
+            "items": [
+              {
+                "detail": {
+                  "type": "tip",
+                  "object": {
+                    "id": "55d54fdc498eedd85587d3ae",
+                    "createdAt": 1440042972,
+                    "text": "Cool music! Amazing stylish interior. Huge menu. Try steamed dorada, almond cake and melon and mint smoothy. My fav shisha is mint+grapefruit. You might spend all day long in this place.",
+                    "type": "user",
+                    "canonicalUrl": "https:\/\/foursquare.com\/item\/55d54fdc498eedd85587d3ae",
+                    "canonicalPath": "\/item\/55d54fdc498eedd85587d3ae",
+                    "logView": true,
+                    "agreeCount": 0,
+                    "disagreeCount": 0,
+                    "user": {
+                      "id": "92711518",
+                      "firstName": "Miss",
+                      "lastName": "Gh",
+                      "gender": "female",
+                      "canonicalUrl": "https:\/\/foursquare.com\/user\/92711518",
+                      "canonicalPath": "\/user\/92711518",
+                      "photo": {
+                        "prefix": "https:\/\/igx.4sqi.net\/img\/user\/",
+                        "suffix": "\/92711518_7gxowb-m_jwdQ3KrSw9-AlZal1xxNK4zC6XDKNiHeE8yETbByut4FpxGhPw0sGgBVY8vSSWNp.jpg"
+                      },
+                      "isAnonymous": false
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "displayType": "venue",
+          "venue": {
+            "id": "547e337e498e4ed3290637eb",
+            "name": "МакКафе \/ McCafe",
+            "location": {
+              "address": "McDonald's",
+              "crossStreet": "просп. Революции, 32а",
+              "lat": 51.66913620949687,
+              "lng": 39.20607382221324,
+              "labeledLatLngs": [
+                {
+                  "label": "display",
+                  "lat": 51.66913620949687,
+                  "lng": 39.20607382221324
+                }
+              ],
+              "cc": "RU",
+              "city": "Voronezh",
+              "state": "Voronezh Oblast",
+              "country": "Russia",
+              "contextLine": "Voronezh, Russia",
+              "contextGeoId": 72057594038399981,
+              "formattedAddress": [
+                "<span itemprop=\"streetAddress\">McDonald&#39;s<\/span> (&#1087;&#1088;&#1086;&#1089;&#1087;. &#1056;&#1077;&#1074;&#1086;&#1083;&#1102;&#1094;&#1080;&#1080;, 32&#1072;)",
+                "<span itemprop=\"addressLocality\">Voronezh<\/span>",
+                "Russia"
+              ]
+            },
+            "canonicalUrl": "https:\/\/foursquare.com\/v\/%D0%BC%D0%B0%D0%BA%D0%BA%D0%B0%D1%84%D0%B5--mccafe\/547e337e498e4ed3290637eb",
+            "canonicalPath": "\/v\/%D0%BC%D0%B0%D0%BA%D0%BA%D0%B0%D1%84%D0%B5--mccafe\/547e337e498e4ed3290637eb",
+            "categories": [
+              {
+                "id": "4bf58dd8d48988d1e0931735",
+                "name": "Coffee Shop",
+                "pluralName": "Coffee Shops",
+                "shortName": "Coffee Shop",
+                "icon": {
+                  "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/coffeeshop_",
+                  "mapPrefix": "https:\/\/ss3.4sqi.net\/img\/categories_map\/food\/coffeeshop",
+                  "suffix": ".png"
+                },
+                "primary": true
+              }
+            ],
+            "verified": false,
+            "restricted": true,
+            "stats": {
+              "checkinsCount": 2567,
+              "usersCount": 590,
+              "tipCount": 6
+            },
+            "price": {
+              "tier": 1,
+              "message": "Cheap",
+              "currency": "\u20bd"
+            },
+            "dislike": false,
+            "ok": false,
+            "rating": 7.4,
+            "ratingColor": "C5DE35",
+            "ratingSignals": 41,
+            "allowMenuUrlEdit": true,
+            "beenHere": {
+              "count": 0,
+              "marked": false,
+              "lastCheckinExpiredAt": 0
+            }
+          },
+          "id": "5a8146d76eda026f27dec229",
+          "photo": {
+            "id": "54e9d02f498e3aad50f01b03",
+            "createdAt": 1424609327,
+            "prefix": "https:\/\/igx.4sqi.net\/img\/general\/",
+            "suffix": "\/115012942_SF31ENV_yWS8BInaDPFpEqJMdiPM_TAokbDyHyArfGg.jpg",
+            "width": 1434,
+            "height": 1920,
+            "user": {
+              "id": "115012942",
+              "firstName": "Starodubtsewa",
+              "gender": "female",
+              "canonicalUrl": "https:\/\/foursquare.com\/user\/115012942",
+              "canonicalPath": "\/user\/115012942",
+              "photo": {
+                "prefix": "https:\/\/igx.4sqi.net\/img\/user\/",
+                "suffix": "\/115012942-UF0ROUWAT1P13COH.jpg"
+              },
+              "isAnonymous": false
+            },
+            "visibility": "public"
+          },
+          "snippets": {
+            "count": 1,
+            "items": [
+              {
+                "detail": {
+                  "type": "tip",
+                  "object": {
+                    "id": "56422845498ed0c993953b52",
+                    "createdAt": 1447176261,
+                    "text": "Десерты вкусные, но уточняйте у бариста степень из свежести. Рекомендую пирог(или чизкейк) с яблоком. Красиво все украшают :3 особенно какао.",
+                    "type": "user",
+                    "canonicalUrl": "https:\/\/foursquare.com\/item\/56422845498ed0c993953b52",
+                    "canonicalPath": "\/item\/56422845498ed0c993953b52",
+                    "logView": true,
+                    "agreeCount": 0,
+                    "disagreeCount": 0,
+                    "user": {
+                      "id": "71298187",
+                      "firstName": "Надя",
+                      "lastName": "Колотило",
+                      "gender": "female",
+                      "canonicalUrl": "https:\/\/foursquare.com\/hidory_hope",
+                      "canonicalPath": "\/hidory_hope",
+                      "photo": {
+                        "prefix": "https:\/\/igx.4sqi.net\/img\/user\/",
+                        "suffix": "\/71298187-5ZOQYJDOLSQQ2K40.jpg"
+                      },
+                      "isAnonymous": false
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "displayType": "venue",
+          "venue": {
+            "id": "4ff9cffae4b01d082173c17b",
+            "name": "Золотой жук",
+            "location": {
+              "address": "просп. Революции, 26\/28",
+              "lat": 51.671114634093215,
+              "lng": 39.20844554901123,
+              "labeledLatLngs": [
+                {
+                  "label": "display",
+                  "lat": 51.671114634093215,
+                  "lng": 39.20844554901123
+                }
+              ],
+              "postalCode": "394036",
+              "cc": "RU",
+              "city": "Voronezh",
+              "state": "Voronezh Oblast",
+              "country": "Russia",
+              "contextLine": "Voronezh, Russia",
+              "contextGeoId": 72057594038399981,
+              "formattedAddress": [
+                "<span itemprop=\"streetAddress\">&#1087;&#1088;&#1086;&#1089;&#1087;. &#1056;&#1077;&#1074;&#1086;&#1083;&#1102;&#1094;&#1080;&#1080;, 26\/28<\/span>",
+                "<span itemprop=\"postalCode\">394036<\/span>, <span itemprop=\"addressLocality\">Voronezh<\/span>",
+                "Russia"
+              ]
+            },
+            "canonicalUrl": "https:\/\/foursquare.com\/v\/%D0%B7%D0%BE%D0%BB%D0%BE%D1%82%D0%BE%D0%B9-%D0%B6%D1%83%D0%BA\/4ff9cffae4b01d082173c17b",
+            "canonicalPath": "\/v\/%D0%B7%D0%BE%D0%BB%D0%BE%D1%82%D0%BE%D0%B9-%D0%B6%D1%83%D0%BA\/4ff9cffae4b01d082173c17b",
+            "categories": [
+              {
+                "id": "4bf58dd8d48988d1dc931735",
+                "name": "Tea Room",
+                "pluralName": "Tea Rooms",
+                "shortName": "Tea Room",
+                "icon": {
+                  "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/tearoom_",
+                  "mapPrefix": "https:\/\/ss3.4sqi.net\/img\/categories_map\/food\/tearoom",
+                  "suffix": ".png"
+                },
+                "primary": true
+              }
+            ],
+            "verified": false,
+            "restricted": true,
+            "stats": {
+              "checkinsCount": 537,
+              "usersCount": 132,
+              "tipCount": 16
+            },
+            "urlSig": "GKvF0rfMEepX+7SCGAuYyNy96SQ=",
+            "price": {
+              "tier": 2,
+              "message": "Moderate",
+              "currency": "\u20bd"
+            },
+            "dislike": false,
+            "ok": false,
+            "rating": 7.4,
+            "ratingColor": "C5DE35",
+            "ratingSignals": 32,
+            "allowMenuUrlEdit": true,
+            "beenHere": {
+              "count": 0,
+              "marked": false,
+              "lastCheckinExpiredAt": 0
+            }
+          },
+          "id": "5a8146d76eda026f27dec22a",
+          "photo": {
+            "id": "514c8a98e4b006ca330cff41",
+            "createdAt": 1363970712,
+            "prefix": "https:\/\/igx.4sqi.net\/img\/general\/",
+            "suffix": "\/51312047_HawLZPJVKaIvRiQeZ2fbYaTVbf5sI_aLIBHiR-3LR3s.jpg",
+            "width": 720,
+            "height": 960,
+            "user": {
+              "id": "51312047",
+              "firstName": "Alex",
+              "lastName": "Sovetov",
+              "gender": "male",
+              "canonicalUrl": "https:\/\/foursquare.com\/user\/51312047",
+              "canonicalPath": "\/user\/51312047",
+              "photo": {
+                "prefix": "https:\/\/igx.4sqi.net\/img\/user\/",
+                "suffix": "\/EDOZ3QR2DGHZKWNE.jpg"
+              },
+              "isAnonymous": false
+            },
+            "visibility": "public"
+          },
+          "snippets": {
+            "count": 1,
+            "items": [
+              {
+                "detail": {
+                  "type": "tip",
+                  "object": {
+                    "id": "53e359a2498e0886a553954b",
+                    "createdAt": 1407408546,
+                    "text": "Очень уютное место. В соседнем заведение можно заказать кальян.",
+                    "type": "user",
+                    "canonicalUrl": "https:\/\/foursquare.com\/item\/53e359a2498e0886a553954b",
+                    "canonicalPath": "\/item\/53e359a2498e0886a553954b",
+                    "logView": true,
+                    "agreeCount": 0,
+                    "disagreeCount": 0,
+                    "user": {
+                      "id": "55255348",
+                      "firstName": "Kolya",
+                      "lastName": "Koleso",
+                      "gender": "male",
+                      "canonicalUrl": "https:\/\/foursquare.com\/user\/55255348",
+                      "canonicalPath": "\/user\/55255348",
+                      "photo": {
+                        "prefix": "https:\/\/igx.4sqi.net\/img\/user\/",
+                        "suffix": "\/V0ZNEZIWEN1CM45G.jpg"
+                      },
+                      "isAnonymous": false
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "displayType": "venue",
+          "venue": {
+            "id": "5905d8ce35d3fc7ff227438e",
+            "name": "Penka Coffee",
+            "location": {
+              "address": "ул. Фридриха Энгельса, 9",
+              "lat": 51.674531206652766,
+              "lng": 39.2086923122406,
+              "labeledLatLngs": [
+                {
+                  "label": "display",
+                  "lat": 51.674531206652766,
+                  "lng": 39.2086923122406
+                }
+              ],
+              "postalCode": "394000",
+              "cc": "RU",
+              "city": "Voronezh",
+              "state": "Voronezh Oblast",
+              "country": "Russia",
+              "contextLine": "Voronezh, Russia",
+              "contextGeoId": 72057594038399981,
+              "formattedAddress": [
+                "<span itemprop=\"streetAddress\">&#1091;&#1083;. &#1060;&#1088;&#1080;&#1076;&#1088;&#1080;&#1093;&#1072; &#1069;&#1085;&#1075;&#1077;&#1083;&#1100;&#1089;&#1072;, 9<\/span>",
+                "<span itemprop=\"postalCode\">394000<\/span>, <span itemprop=\"addressLocality\">Voronezh<\/span>",
+                "Russia"
+              ]
+            },
+            "canonicalUrl": "https:\/\/foursquare.com\/v\/penka-coffee\/5905d8ce35d3fc7ff227438e",
+            "canonicalPath": "\/v\/penka-coffee\/5905d8ce35d3fc7ff227438e",
+            "categories": [
+              {
+                "id": "4bf58dd8d48988d1e0931735",
+                "name": "Coffee Shop",
+                "pluralName": "Coffee Shops",
+                "shortName": "Coffee Shop",
+                "icon": {
+                  "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/coffeeshop_",
+                  "mapPrefix": "https:\/\/ss3.4sqi.net\/img\/categories_map\/food\/coffeeshop",
+                  "suffix": ".png"
+                },
+                "primary": true
+              }
+            ],
+            "verified": false,
+            "restricted": true,
+            "stats": {
+              "checkinsCount": 87,
+              "usersCount": 41,
+              "tipCount": 4
+            },
+            "price": {
+              "tier": 1,
+              "message": "Cheap",
+              "currency": "\u20bd"
+            },
+            "dislike": false,
+            "ok": false,
+            "rating": 7.4,
+            "ratingColor": "C5DE35",
+            "ratingSignals": 14,
+            "allowMenuUrlEdit": true,
+            "beenHere": {
+              "count": 0,
+              "marked": false,
+              "lastCheckinExpiredAt": 0
+            }
+          },
+          "id": "5a8146d76eda026f27dec22b",
+          "photo": {
+            "id": "59bd064d0531e83b9611820c",
+            "createdAt": 1505560141,
+            "prefix": "https:\/\/igx.4sqi.net\/img\/general\/",
+            "suffix": "\/88309323_J_qgHkqGjFJr2pM8v-JIrlnD0g2FJdXze54I0IK-9ig.jpg",
+            "width": 1440,
+            "height": 1920,
+            "user": {
+              "id": "88309323",
+              "firstName": "Ярослав",
+              "lastName": "Крылатов",
+              "gender": "male",
+              "canonicalUrl": "https:\/\/foursquare.com\/user\/88309323",
+              "canonicalPath": "\/user\/88309323",
+              "photo": {
+                "prefix": "https:\/\/igx.4sqi.net\/img\/user\/",
+                "suffix": "\/88309323-S1EQTVNEZFCDJPSK.jpg"
+              },
+              "isAnonymous": false
+            },
+            "visibility": "public"
+          },
+          "snippets": {
+            "count": 1,
+            "items": [
+              {
+                "detail": {
+                  "type": "tip",
+                  "object": {
+                    "id": "5935405c35dfa718943f3857",
+                    "createdAt": 1496662108,
+                    "text": "Great coffee, a couple of tables and stable wifi",
+                    "type": "user",
+                    "canonicalUrl": "https:\/\/foursquare.com\/item\/5935405c35dfa718943f3857",
+                    "canonicalPath": "\/item\/5935405c35dfa718943f3857",
+                    "logView": true,
+                    "agreeCount": 1,
+                    "disagreeCount": 0,
+                    "user": {
+                      "id": "31402821",
+                      "firstName": "Katherine",
+                      "gender": "female",
+                      "canonicalUrl": "https:\/\/foursquare.com\/user\/31402821",
+                      "canonicalPath": "\/user\/31402821",
+                      "photo": {
+                        "prefix": "https:\/\/igx.4sqi.net\/img\/user\/",
+                        "suffix": "\/0XA4JEQEDOZEMDYO.jpg"
+                      },
+                      "isAnonymous": false
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "displayType": "venue",
+          "venue": {
+            "id": "5816225138fa6cd460797e77",
+            "name": "Волконский",
+            "location": {
+              "address": "Карла Маркса 67\/1",
+              "lat": 51.6691837266283,
+              "lng": 39.1987988492577,
+              "labeledLatLngs": [
+                {
+                  "label": "display",
+                  "lat": 51.6691837266283,
+                  "lng": 39.1987988492577
+                }
+              ],
+              "postalCode": "394030",
+              "cc": "RU",
+              "city": "Voronezh",
+              "state": "Voronezh Oblast",
+              "country": "Russia",
+              "contextLine": "Voronezh, Russia",
+              "contextGeoId": 72057594038399981,
+              "formattedAddress": [
+                "<span itemprop=\"streetAddress\">&#1050;&#1072;&#1088;&#1083;&#1072; &#1052;&#1072;&#1088;&#1082;&#1089;&#1072; 67\/1<\/span>",
+                "<span itemprop=\"postalCode\">394030<\/span>, <span itemprop=\"addressLocality\">Voronezh<\/span>",
+                "Russia"
+              ]
+            },
+            "canonicalUrl": "https:\/\/foursquare.com\/v\/%D0%B2%D0%BE%D0%BB%D0%BA%D0%BE%D0%BD%D1%81%D0%BA%D0%B8%D0%B9\/5816225138fa6cd460797e77",
+            "canonicalPath": "\/v\/%D0%B2%D0%BE%D0%BB%D0%BA%D0%BE%D0%BD%D1%81%D0%BA%D0%B8%D0%B9\/5816225138fa6cd460797e77",
+            "categories": [
+              {
+                "id": "4bf58dd8d48988d16d941735",
+                "name": "Café",
+                "pluralName": "Cafés",
+                "shortName": "Café",
+                "icon": {
+                  "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/cafe_",
+                  "mapPrefix": "https:\/\/ss3.4sqi.net\/img\/categories_map\/food\/cafe",
+                  "suffix": ".png"
+                },
+                "primary": true
+              }
+            ],
+            "verified": false,
+            "restricted": true,
+            "stats": {
+              "checkinsCount": 298,
+              "usersCount": 97,
+              "tipCount": 4
+            },
+            "urlSig": "jXYHG8Y8PQnDIWspd85er9a9htI=",
+            "price": {
+              "tier": 1,
+              "message": "Cheap",
+              "currency": "\u20bd"
+            },
+            "dislike": false,
+            "ok": false,
+            "rating": 7.3,
+            "ratingColor": "C5DE35",
+            "ratingSignals": 14,
+            "allowMenuUrlEdit": true,
+            "beenHere": {
+              "count": 0,
+              "marked": false,
+              "lastCheckinExpiredAt": 0
+            }
+          },
+          "id": "5a8146d76eda026f27dec22c",
+          "photo": {
+            "id": "5a1a632998fbfc0aa5770bb9",
+            "createdAt": 1511678761,
+            "prefix": "https:\/\/igx.4sqi.net\/img\/general\/",
+            "suffix": "\/68013348_vL6UACrO7OBpIOcqzcrouO6QDNF_DPmI780wPWJ9NAQ.jpg",
+            "width": 1440,
+            "height": 1920,
+            "user": {
+              "id": "68013348",
+              "firstName": "Yelena",
+              "lastName": "Nikitina",
+              "gender": "none",
+              "canonicalUrl": "https:\/\/foursquare.com\/user\/68013348",
+              "canonicalPath": "\/user\/68013348",
+              "photo": {
+                "prefix": "https:\/\/igx.4sqi.net\/img\/user\/",
+                "suffix": "\/RLSEGKOZRAW5BYO5.jpg"
+              },
+              "isAnonymous": false
+            },
+            "visibility": "public"
+          },
+          "snippets": {
+            "count": 1,
+            "items": [
+              {
+                "detail": {
+                  "type": "tip",
+                  "object": {
+                    "id": "5a101ddc79f6c764d0d898ba",
+                    "createdAt": 1511005660,
+                    "text": "Nice business lunch and cosy atmosphere",
+                    "type": "user",
+                    "canonicalUrl": "https:\/\/foursquare.com\/item\/5a101ddc79f6c764d0d898ba",
+                    "canonicalPath": "\/item\/5a101ddc79f6c764d0d898ba",
+                    "logView": true,
+                    "agreeCount": 0,
+                    "disagreeCount": 0,
+                    "user": {
+                      "id": "463589457",
+                      "firstName": "Saed",
+                      "lastName": "Bakez",
+                      "gender": "male",
+                      "canonicalUrl": "https:\/\/foursquare.com\/user\/463589457",
+                      "canonicalPath": "\/user\/463589457",
+                      "photo": {
+                        "prefix": "https:\/\/igx.4sqi.net\/img\/user\/",
+                        "suffix": "\/463589457_YNCBu5-b_vSSc9p144Cm8_KKJR1VwnHgbNV1NAcM71zAvKP9pEtVW54oTMlQPBW9edstC5je8.jpg"
+                      },
+                      "isAnonymous": false
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "displayType": "venue",
+          "venue": {
+            "id": "4e65248b922e6a5aaae47fb8",
+            "name": "Книжный клуб «Петровский»",
+            "location": {
+              "address": "ТЦ «Петровский пассаж»",
+              "crossStreet": "ул. 20-летия ВЛКСМ, 54а",
+              "lat": 51.673744120269966,
+              "lng": 39.21322878603678,
+              "labeledLatLngs": [
+                {
+                  "label": "display",
+                  "lat": 51.673744120269966,
+                  "lng": 39.21322878603678
+                }
+              ],
+              "postalCode": "394 000",
+              "cc": "RU",
+              "city": "Voronezh",
+              "state": "Voronezh Oblast",
+              "country": "Russia",
+              "contextLine": "Voronezh, Russia",
+              "contextGeoId": 72057594038399981,
+              "formattedAddress": [
+                "<span itemprop=\"streetAddress\">&#1058;&#1062; &laquo;&#1055;&#1077;&#1090;&#1088;&#1086;&#1074;&#1089;&#1082;&#1080;&#1081; &#1087;&#1072;&#1089;&#1089;&#1072;&#1078;&raquo;<\/span> (&#1091;&#1083;. 20-&#1083;&#1077;&#1090;&#1080;&#1103; &#1042;&#1051;&#1050;&#1057;&#1052;, 54&#1072;)",
+                "<span itemprop=\"postalCode\">394 000<\/span>, <span itemprop=\"addressLocality\">Voronezh<\/span>",
+                "Russia"
+              ]
+            },
+            "canonicalUrl": "https:\/\/foursquare.com\/v\/%D0%BA%D0%BD%D0%B8%D0%B6%D0%BD%D1%8B%D0%B9-%D0%BA%D0%BB%D1%83%D0%B1-%D0%BF%D0%B5%D1%82%D1%80%D0%BE%D0%B2%D1%81%D0%BA%D0%B8%D0%B9\/4e65248b922e6a5aaae47fb8",
+            "canonicalPath": "\/v\/%D0%BA%D0%BD%D0%B8%D0%B6%D0%BD%D1%8B%D0%B9-%D0%BA%D0%BB%D1%83%D0%B1-%D0%BF%D0%B5%D1%82%D1%80%D0%BE%D0%B2%D1%81%D0%BA%D0%B8%D0%B9\/4e65248b922e6a5aaae47fb8",
+            "categories": [
+              {
+                "id": "4bf58dd8d48988d114951735",
+                "name": "Bookstore",
+                "pluralName": "Bookstores",
+                "shortName": "Bookstore",
+                "icon": {
+                  "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/shops\/bookstore_",
+                  "mapPrefix": "https:\/\/ss3.4sqi.net\/img\/categories_map\/shops\/bookstore",
+                  "suffix": ".png"
+                },
+                "primary": true
+              }
+            ],
+            "verified": true,
+            "restricted": true,
+            "stats": {
+              "checkinsCount": 3257,
+              "usersCount": 1082,
+              "tipCount": 57
+            },
+            "urlSig": "QzfxWwFlyshf3spiOjUH5AVO\/BI=",
+            "dislike": false,
+            "ok": false,
+            "rating": 8.5,
+            "ratingColor": "73CF42",
+            "ratingSignals": 276,
+            "allowMenuUrlEdit": true,
+            "beenHere": {
+              "count": 0,
+              "marked": false,
+              "lastCheckinExpiredAt": 0
+            },
+            "venuePage": {
+              "id": "42207364"
+            },
+            "storeId": "knigklubvrn"
+          },
+          "id": "5a8146d76eda026f27dec22d",
+          "photo": {
+            "id": "51167ea4e4b034f5112b75d2",
+            "createdAt": 1360428708,
+            "prefix": "https:\/\/igx.4sqi.net\/img\/general\/",
+            "suffix": "\/47854748_xq_rdWqWnvgo5pTtIncKttQ3QRL7_oyqnDVALLi5CBY.jpg",
+            "width": 612,
+            "height": 612,
+            "user": {
+              "id": "47854748",
+              "firstName": "Yuyukina",
+              "gender": "female",
+              "canonicalUrl": "https:\/\/foursquare.com\/yykina",
+              "canonicalPath": "\/yykina",
+              "photo": {
+                "prefix": "https:\/\/igx.4sqi.net\/img\/user\/",
+                "suffix": "\/Q4NHLHHNTG4DJOBN.jpg"
+              },
+              "isAnonymous": false
+            },
+            "visibility": "public"
+          },
+          "snippets": {
+            "count": 1,
+            "items": [
+              {
+                "detail": {
+                  "type": "tip",
+                  "object": {
+                    "id": "519cc0c8498e57f2bfb3b84a",
+                    "createdAt": 1369227464,
+                    "text": "Best tea I ever had! Excellent service, free internet (no password), good daytime events and so on! Island of silence and peace. (Oh, yes and it's a bookstore.)",
+                    "type": "user",
+                    "canonicalUrl": "https:\/\/foursquare.com\/item\/519cc0c8498e57f2bfb3b84a",
+                    "canonicalPath": "\/item\/519cc0c8498e57f2bfb3b84a",
+                    "likes": {
+                      "count": 5,
+                      "groups": [],
+                      "summary": "5 Likes"
+                    },
+                    "logView": true,
+                    "editedAt": 1369227527,
+                    "agreeCount": 5,
+                    "disagreeCount": 0,
+                    "user": {
+                      "id": "1550279",
+                      "firstName": "Arnold Bence",
+                      "lastName": "Acs",
+                      "gender": "male",
+                      "canonicalUrl": "https:\/\/foursquare.com\/user\/1550279",
+                      "canonicalPath": "\/user\/1550279",
+                      "photo": {
+                        "prefix": "https:\/\/igx.4sqi.net\/img\/user\/",
+                        "suffix": "\/WHZFKK4PYVVFIXYN.jpg"
+                      },
+                      "isAnonymous": false
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "displayType": "venue",
+          "venue": {
+            "id": "4fe839cfe4b0c6426c4a8892",
+            "name": "Эрмитаж-В",
+            "location": {
+              "address": "Ж\/д вокзал Воронеж-1",
+              "crossStreet": "пл. Генерала Черняховского, 1",
+              "lat": 51.67961910406597,
+              "lng": 39.205809314946755,
+              "labeledLatLngs": [
+                {
+                  "label": "display",
+                  "lat": 51.67961910406597,
+                  "lng": 39.205809314946755
+                }
+              ],
+              "postalCode": "394003",
+              "cc": "RU",
+              "city": "Voronezh",
+              "state": "Voronezh Oblast",
+              "country": "Russia",
+              "contextLine": "Voronezh, Russia",
+              "contextGeoId": 72057594038399981,
+              "formattedAddress": [
+                "<span itemprop=\"streetAddress\">&#1046;\/&#1076; &#1074;&#1086;&#1082;&#1079;&#1072;&#1083; &#1042;&#1086;&#1088;&#1086;&#1085;&#1077;&#1078;-1<\/span> (&#1087;&#1083;. &#1043;&#1077;&#1085;&#1077;&#1088;&#1072;&#1083;&#1072; &#1063;&#1077;&#1088;&#1085;&#1103;&#1093;&#1086;&#1074;&#1089;&#1082;&#1086;&#1075;&#1086;, 1)",
+                "<span itemprop=\"postalCode\">394003<\/span>, <span itemprop=\"addressLocality\">Voronezh<\/span>",
+                "Russia"
+              ]
+            },
+            "canonicalUrl": "https:\/\/foursquare.com\/v\/%D1%8D%D1%80%D0%BC%D0%B8%D1%82%D0%B0%D0%B6%D0%B2\/4fe839cfe4b0c6426c4a8892",
+            "canonicalPath": "\/v\/%D1%8D%D1%80%D0%BC%D0%B8%D1%82%D0%B0%D0%B6%D0%B2\/4fe839cfe4b0c6426c4a8892",
+            "categories": [
+              {
+                "id": "4bf58dd8d48988d16d941735",
+                "name": "Café",
+                "pluralName": "Cafés",
+                "shortName": "Café",
+                "icon": {
+                  "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/cafe_",
+                  "mapPrefix": "https:\/\/ss3.4sqi.net\/img\/categories_map\/food\/cafe",
+                  "suffix": ".png"
+                },
+                "primary": true
+              }
+            ],
+            "verified": false,
+            "restricted": true,
+            "stats": {
+              "checkinsCount": 51,
+              "usersCount": 42,
+              "tipCount": 2
+            },
+            "price": {
+              "tier": 1,
+              "message": "Cheap",
+              "currency": "\u20bd"
+            },
+            "dislike": false,
+            "ok": false,
+            "allowMenuUrlEdit": true,
+            "beenHere": {
+              "count": 0,
+              "marked": false,
+              "lastCheckinExpiredAt": 0
+            }
+          },
+          "id": "5a8146d76eda026f27dec22e",
+          "photo": {
+            "id": "51164c22e4b0f0411d2949d4",
+            "createdAt": 1360415778,
+            "prefix": "https:\/\/igx.4sqi.net\/img\/general\/",
+            "suffix": "\/7245341_6fnF1JpSV6YvqsJYH7JdN-nHtVF4bIVaKpqgZqklcfY.jpg",
+            "width": 720,
+            "height": 769,
+            "user": {
+              "id": "7245341",
+              "firstName": "Andrey",
+              "lastName": "Osipov",
+              "gender": "male",
+              "canonicalUrl": "https:\/\/foursquare.com\/komnatasmexa",
+              "canonicalPath": "\/komnatasmexa",
+              "photo": {
+                "prefix": "https:\/\/igx.4sqi.net\/img\/user\/",
+                "suffix": "\/CXHB0Z5IKWKDKSUA.jpg"
+              },
+              "isAnonymous": false
+            },
+            "visibility": "public"
+          },
+          "snippets": {
+            "count": 1,
+            "items": [
+              {
+                "detail": {
+                  "type": "tip",
+                  "object": {
+                    "id": "565b307c498e1963ae0dc6b9",
+                    "createdAt": 1448816764,
+                    "text": "Высокие потолки,мраморный пол,огромные панно,золотые люстры, фонтан в центре кафе, огромные бархатные шторы, размеры порций не уступают шторам; вкуснейшая еда по низким ценам и приветливые официанты.",
+                    "type": "user",
+                    "canonicalUrl": "https:\/\/foursquare.com\/item\/565b307c498e1963ae0dc6b9",
+                    "canonicalPath": "\/item\/565b307c498e1963ae0dc6b9",
+                    "logView": true,
+                    "agreeCount": 0,
+                    "disagreeCount": 0,
+                    "user": {
+                      "id": "29566958",
+                      "firstName": "Stacey",
+                      "lastName": "Perpetuum",
+                      "gender": "female",
+                      "canonicalUrl": "https:\/\/foursquare.com\/pinkmoonqueen",
+                      "canonicalPath": "\/pinkmoonqueen",
+                      "photo": {
+                        "prefix": "https:\/\/igx.4sqi.net\/img\/user\/",
+                        "suffix": "\/29566958-3QTJLBAYJMJ5WGRR.jpg"
+                      },
+                      "isAnonymous": false
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "displayType": "venue",
+          "venue": {
+            "id": "4f72a64ae4b05ea280a69edc",
+            "name": "Арсенал",
+            "location": {
+              "address": "БЦ «Арсенал»",
+              "crossStreet": "Арсенальная ул., 3",
+              "lat": 51.67584187787089,
+              "lng": 39.21552658081055,
+              "labeledLatLngs": [
+                {
+                  "label": "display",
+                  "lat": 51.67584187787089,
+                  "lng": 39.21552658081055
+                }
+              ],
+              "postalCode": "394036",
+              "cc": "RU",
+              "city": "Voronezh",
+              "state": "Voronezh Oblast",
+              "country": "Russia",
+              "contextLine": "Voronezh, Russia",
+              "contextGeoId": 72057594038399981,
+              "formattedAddress": [
+                "<span itemprop=\"streetAddress\">&#1041;&#1062; &laquo;&#1040;&#1088;&#1089;&#1077;&#1085;&#1072;&#1083;&raquo;<\/span> (&#1040;&#1088;&#1089;&#1077;&#1085;&#1072;&#1083;&#1100;&#1085;&#1072;&#1103; &#1091;&#1083;., 3)",
+                "<span itemprop=\"postalCode\">394036<\/span>, <span itemprop=\"addressLocality\">Voronezh<\/span>",
+                "Russia"
+              ]
+            },
+            "canonicalUrl": "https:\/\/foursquare.com\/v\/%D0%B0%D1%80%D1%81%D0%B5%D0%BD%D0%B0%D0%BB\/4f72a64ae4b05ea280a69edc",
+            "canonicalPath": "\/v\/%D0%B0%D1%80%D1%81%D0%B5%D0%BD%D0%B0%D0%BB\/4f72a64ae4b05ea280a69edc",
+            "categories": [
+              {
+                "id": "4bf58dd8d48988d16d941735",
+                "name": "Café",
+                "pluralName": "Cafés",
+                "shortName": "Café",
+                "icon": {
+                  "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/cafe_",
+                  "mapPrefix": "https:\/\/ss3.4sqi.net\/img\/categories_map\/food\/cafe",
+                  "suffix": ".png"
+                },
+                "primary": true
+              }
+            ],
+            "verified": false,
+            "restricted": true,
+            "stats": {
+              "checkinsCount": 165,
+              "usersCount": 26,
+              "tipCount": 3
+            },
+            "price": {
+              "tier": 1,
+              "message": "Cheap",
+              "currency": "\u20bd"
+            },
+            "dislike": false,
+            "ok": false,
+            "allowMenuUrlEdit": true,
+            "beenHere": {
+              "count": 0,
+              "marked": false,
+              "lastCheckinExpiredAt": 0
+            }
+          },
+          "id": "5a8146d76eda026f27dec22f",
+          "photo": {
+            "id": "5174d420e4b0f15943339f5a",
+            "createdAt": 1366610976,
+            "prefix": "https:\/\/igx.4sqi.net\/img\/general\/",
+            "suffix": "\/3917744_WqE_2h2PcDgh2yUigcC35bYI5C3GmJ3is1JtNLLcmy8.jpg",
+            "width": 960,
+            "height": 720,
+            "user": {
+              "id": "3917744",
+              "firstName": "Nikolay",
+              "lastName": "Nowitsky",
+              "gender": "male",
+              "canonicalUrl": "https:\/\/foursquare.com\/sonick_rnd",
+              "canonicalPath": "\/sonick_rnd",
+              "photo": {
+                "prefix": "https:\/\/igx.4sqi.net\/img\/user\/",
+                "suffix": "\/3917744_8JjLDEXF_xHAOy1dEJHBCBmBvZfvCRDd3A2kkgJ49pi5dPKwOWjRkIlndHg7aJgq8i80xv86a.jpg"
+              },
+              "isAnonymous": false
+            },
+            "visibility": "public"
+          },
+          "snippets": {
+            "count": 1,
+            "items": [
+              {
+                "detail": {
+                  "type": "tip",
+                  "object": {
+                    "id": "51c05fb5498e8d96ecaf86f6",
+                    "createdAt": 1371561909,
+                    "text": "Чечевичный суп спасает вегетарианцев!",
+                    "type": "user",
+                    "canonicalUrl": "https:\/\/foursquare.com\/item\/51c05fb5498e8d96ecaf86f6",
+                    "canonicalPath": "\/item\/51c05fb5498e8d96ecaf86f6",
+                    "logView": true,
+                    "agreeCount": 0,
+                    "disagreeCount": 0,
+                    "user": {
+                      "id": "15347128",
+                      "firstName": "Olli",
+                      "lastName": "Day",
+                      "gender": "female",
+                      "canonicalUrl": "https:\/\/foursquare.com\/olliday",
+                      "canonicalPath": "\/olliday",
+                      "photo": {
+                        "prefix": "https:\/\/igx.4sqi.net\/img\/user\/",
+                        "suffix": "\/FZBDNTVJ053AO21R.jpg"
+                      },
+                      "isAnonymous": false
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "displayType": "venue",
+          "venue": {
+            "id": "58206b2852addb0cc7e5660c",
+            "name": "Perfetto Caffe",
+            "location": {
+              "address": "ул. Комиссаржевской, 7",
+              "lat": 51.67092094713022,
+              "lng": 39.20317232608795,
+              "labeledLatLngs": [
+                {
+                  "label": "display",
+                  "lat": 51.67092094713022,
+                  "lng": 39.20317232608795
+                }
+              ],
+              "cc": "RU",
+              "city": "Voronezh",
+              "state": "Voronezh Oblast",
+              "country": "Russia",
+              "contextLine": "Voronezh, Russia",
+              "contextGeoId": 72057594038399981,
+              "formattedAddress": [
+                "<span itemprop=\"streetAddress\">&#1091;&#1083;. &#1050;&#1086;&#1084;&#1080;&#1089;&#1089;&#1072;&#1088;&#1078;&#1077;&#1074;&#1089;&#1082;&#1086;&#1081;, 7<\/span>",
+                "<span itemprop=\"addressLocality\">Voronezh<\/span>",
+                "Russia"
+              ]
+            },
+            "canonicalUrl": "https:\/\/foursquare.com\/v\/perfetto-caffe\/58206b2852addb0cc7e5660c",
+            "canonicalPath": "\/v\/perfetto-caffe\/58206b2852addb0cc7e5660c",
+            "categories": [
+              {
+                "id": "4bf58dd8d48988d1e0931735",
+                "name": "Coffee Shop",
+                "pluralName": "Coffee Shops",
+                "shortName": "Coffee Shop",
+                "icon": {
+                  "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/coffeeshop_",
+                  "mapPrefix": "https:\/\/ss3.4sqi.net\/img\/categories_map\/food\/coffeeshop",
+                  "suffix": ".png"
+                },
+                "primary": true
+              }
+            ],
+            "verified": false,
+            "restricted": true,
+            "stats": {
+              "checkinsCount": 78,
+              "usersCount": 31,
+              "tipCount": 0
+            },
+            "urlSig": "pkNCUVX3kQjLIGnxk7IMCf3spaY=",
+            "price": {
+              "tier": 1,
+              "message": "Cheap",
+              "currency": "\u20bd"
+            },
+            "dislike": false,
+            "ok": false,
+            "allowMenuUrlEdit": true,
+            "beenHere": {
+              "count": 0,
+              "marked": false,
+              "lastCheckinExpiredAt": 0
+            }
+          },
+          "id": "5a8146d76eda026f27dec230",
+          "photo": {
+            "id": "5859223bea1c0d5afc3d1a82",
+            "createdAt": 1482236475,
+            "prefix": "https:\/\/igx.4sqi.net\/img\/general\/",
+            "suffix": "\/68468754_BgIj98a5kLjKXnUG50-gfZHjZ6iCis_SIpQh11QNWWM.jpg",
+            "width": 1440,
+            "height": 1920,
+            "user": {
+              "id": "68468754",
+              "firstName": "Leя4ok",
+              "gender": "female",
+              "canonicalUrl": "https:\/\/foursquare.com\/kotlyarova_lera",
+              "canonicalPath": "\/kotlyarova_lera",
+              "photo": {
+                "prefix": "https:\/\/igx.4sqi.net\/img\/user\/",
+                "suffix": "\/68468754_LIu4bcuk_sG5DY-zHUBPVkaAgYaRE5INF3wjOxVTYJxJaqaFFVx_CYzjIOMThrg7NvCc3or5m.jpg"
+              },
+              "isAnonymous": false
+            },
+            "visibility": "public"
+          },
+          "snippets": {
+            "count": 1,
+            "items": [
+              {}
+            ]
+          }
+        },
+        {
+          "displayType": "venue",
+          "venue": {
+            "id": "55e6f6bc498ea37d8c900094",
+            "name": "Шашлычный двор",
+            "location": {
+              "address": "Ленинский Проспект",
+              "lat": 51.673819376010286,
+              "lng": 39.25028760493945,
+              "labeledLatLngs": [
+                {
+                  "label": "display",
+                  "lat": 51.673819376010286,
+                  "lng": 39.25028760493945
+                }
+              ],
+              "cc": "RU",
+              "city": "Voronezh",
+              "state": "Voronezh Oblast",
+              "country": "Russia",
+              "contextLine": "Voronezh, Russia",
+              "contextGeoId": 72057594038399981,
+              "formattedAddress": [
+                "<span itemprop=\"streetAddress\">&#1051;&#1077;&#1085;&#1080;&#1085;&#1089;&#1082;&#1080;&#1081; &#1055;&#1088;&#1086;&#1089;&#1087;&#1077;&#1082;&#1090;<\/span>",
+                "<span itemprop=\"addressLocality\">Voronezh<\/span>",
+                "Russia"
+              ]
+            },
+            "canonicalUrl": "https:\/\/foursquare.com\/v\/%D1%88%D0%B0%D1%88%D0%BB%D1%8B%D1%87%D0%BD%D1%8B%D0%B9-%D0%B4%D0%B2%D0%BE%D1%80\/55e6f6bc498ea37d8c900094",
+            "canonicalPath": "\/v\/%D1%88%D0%B0%D1%88%D0%BB%D1%8B%D1%87%D0%BD%D1%8B%D0%B9-%D0%B4%D0%B2%D0%BE%D1%80\/55e6f6bc498ea37d8c900094",
+            "categories": [
+              {
+                "id": "4bf58dd8d48988d16d941735",
+                "name": "Café",
+                "pluralName": "Cafés",
+                "shortName": "Café",
+                "icon": {
+                  "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/cafe_",
+                  "mapPrefix": "https:\/\/ss3.4sqi.net\/img\/categories_map\/food\/cafe",
+                  "suffix": ".png"
+                },
+                "primary": true
+              }
+            ],
+            "verified": false,
+            "restricted": true,
+            "stats": {
+              "checkinsCount": 55,
+              "usersCount": 30,
+              "tipCount": 1
+            },
+            "price": {
+              "tier": 1,
+              "message": "Cheap",
+              "currency": "\u20bd"
+            },
+            "dislike": false,
+            "ok": false,
+            "allowMenuUrlEdit": true,
+            "beenHere": {
+              "count": 0,
+              "marked": false,
+              "lastCheckinExpiredAt": 0
+            }
+          },
+          "id": "5a8146d76eda026f27dec231",
+          "photo": {
+            "id": "58d56753d7b473228c0ba5c5",
+            "createdAt": 1490380627,
+            "prefix": "https:\/\/igx.4sqi.net\/img\/general\/",
+            "suffix": "\/156442294_zVwmz8x0fdqqnwHngfFNncz06sFUS3KEyR6Nwg-cacg.jpg",
+            "width": 1440,
+            "height": 1920,
+            "user": {
+              "id": "156442294",
+              "firstName": "Olga",
+              "lastName": "Efremova",
+              "gender": "female",
+              "canonicalUrl": "https:\/\/foursquare.com\/user\/156442294",
+              "canonicalPath": "\/user\/156442294",
+              "photo": {
+                "prefix": "https:\/\/igx.4sqi.net\/img\/user\/",
+                "suffix": "\/156442294_n3Deb0CU_orxOhvE3GcmRdwEmUZIzA8XmzjVynqRs3fvu-FY_e8Ft3SG5NqWsHO_no8piy8H4.jpg"
+              },
+              "isAnonymous": false
+            },
+            "visibility": "public"
+          },
+          "snippets": {
+            "count": 1,
+            "items": [
+              {
+                "detail": {
+                  "type": "tip",
+                  "object": {
+                    "id": "59921bc4037be16d8cc322b5",
+                    "createdAt": 1502747588,
+                    "text": "Да вкусно всё! Сплкойно!",
+                    "type": "user",
+                    "canonicalUrl": "https:\/\/foursquare.com\/item\/59921bc4037be16d8cc322b5",
+                    "canonicalPath": "\/item\/59921bc4037be16d8cc322b5",
+                    "logView": true,
+                    "agreeCount": 0,
+                    "disagreeCount": 0,
+                    "user": {
+                      "id": "411590436",
+                      "firstName": "Роман",
+                      "lastName": "Костенюк",
+                      "gender": "male",
+                      "canonicalUrl": "https:\/\/foursquare.com\/user\/411590436",
+                      "canonicalPath": "\/user\/411590436",
+                      "photo": {
+                        "prefix": "https:\/\/igx.4sqi.net\/img\/user\/",
+                        "suffix": "\/411590436_B6JXQhBZ_vadXlcvpqpPGzlvBt95Jqn0KvRkyZXF6VBzBCAEXXPmWQI8mrxJz4vJU7nhLD-JQ.jpg"
+                      },
+                      "isAnonymous": false
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "displayType": "venue",
+          "venue": {
+            "id": "599ea17cd3cce839e5f7bb63",
+            "name": "Mojo",
+            "location": {
+              "address": "Никитинская ул., 2",
+              "crossStreet": "ул. Комиссаржевской",
+              "lat": 51.67103811588583,
+              "lng": 39.2028021812439,
+              "labeledLatLngs": [
+                {
+                  "label": "display",
+                  "lat": 51.67103811588583,
+                  "lng": 39.2028021812439
+                }
+              ],
+              "postalCode": "394036",
+              "cc": "RU",
+              "city": "Voronezh",
+              "state": "Voronezh Oblast",
+              "country": "Russia",
+              "contextLine": "Voronezh, Russia",
+              "contextGeoId": 72057594038399981,
+              "formattedAddress": [
+                "<span itemprop=\"streetAddress\">&#1053;&#1080;&#1082;&#1080;&#1090;&#1080;&#1085;&#1089;&#1082;&#1072;&#1103; &#1091;&#1083;., 2<\/span> (&#1091;&#1083;. &#1050;&#1086;&#1084;&#1080;&#1089;&#1089;&#1072;&#1088;&#1078;&#1077;&#1074;&#1089;&#1082;&#1086;&#1081;)",
+                "<span itemprop=\"postalCode\">394036<\/span>, <span itemprop=\"addressLocality\">Voronezh<\/span>",
+                "Russia"
+              ]
+            },
+            "canonicalUrl": "https:\/\/foursquare.com\/v\/mojo\/599ea17cd3cce839e5f7bb63",
+            "canonicalPath": "\/v\/mojo\/599ea17cd3cce839e5f7bb63",
+            "categories": [
+              {
+                "id": "4bf58dd8d48988d16d941735",
+                "name": "Café",
+                "pluralName": "Cafés",
+                "shortName": "Café",
+                "icon": {
+                  "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/cafe_",
+                  "mapPrefix": "https:\/\/ss3.4sqi.net\/img\/categories_map\/food\/cafe",
+                  "suffix": ".png"
+                },
+                "primary": true
+              }
+            ],
+            "verified": false,
+            "restricted": true,
+            "stats": {
+              "checkinsCount": 34,
+              "usersCount": 13,
+              "tipCount": 1
+            },
+            "price": {
+              "tier": 1,
+              "message": "Cheap",
+              "currency": "\u20bd"
+            },
+            "dislike": false,
+            "ok": false,
+            "allowMenuUrlEdit": true,
+            "beenHere": {
+              "count": 0,
+              "marked": false,
+              "lastCheckinExpiredAt": 0
+            }
+          },
+          "id": "5a8146d76eda026f27dec232",
+          "photo": {
+            "id": "5a7d76c89de23b46188da7f4",
+            "createdAt": 1518171848,
+            "prefix": "https:\/\/igx.4sqi.net\/img\/general\/",
+            "suffix": "\/463589457_MQR2eev3g8KcM42rkPXLMeImpxRvgc2VLtgXNikjTS8.jpg",
+            "width": 1920,
+            "height": 1440,
+            "user": {
+              "id": "463589457",
+              "firstName": "Saed",
+              "lastName": "Bakez",
+              "gender": "male",
+              "canonicalUrl": "https:\/\/foursquare.com\/user\/463589457",
+              "canonicalPath": "\/user\/463589457",
+              "photo": {
+                "prefix": "https:\/\/igx.4sqi.net\/img\/user\/",
+                "suffix": "\/463589457_YNCBu5-b_vSSc9p144Cm8_KKJR1VwnHgbNV1NAcM71zAvKP9pEtVW54oTMlQPBW9edstC5je8.jpg"
+              },
+              "isAnonymous": false
+            },
+            "visibility": "public"
+          },
+          "snippets": {
+            "count": 1,
+            "items": [
+              {
+                "detail": {
+                  "type": "tip",
+                  "object": {
+                    "id": "5a52055a780eee497fbe30f7",
+                    "createdAt": 1515324762,
+                    "text": "Great Sirniki with Smetana and Jam , perfect breakfast , coffee here is delicious too",
+                    "type": "user",
+                    "canonicalUrl": "https:\/\/foursquare.com\/item\/5a52055a780eee497fbe30f7",
+                    "canonicalPath": "\/item\/5a52055a780eee497fbe30f7",
+                    "logView": true,
+                    "agreeCount": 0,
+                    "disagreeCount": 0,
+                    "user": {
+                      "id": "463589457",
+                      "firstName": "Saed",
+                      "lastName": "Bakez",
+                      "gender": "male",
+                      "canonicalUrl": "https:\/\/foursquare.com\/user\/463589457",
+                      "canonicalPath": "\/user\/463589457",
+                      "photo": {
+                        "prefix": "https:\/\/igx.4sqi.net\/img\/user\/",
+                        "suffix": "\/463589457_YNCBu5-b_vSSc9p144Cm8_KKJR1VwnHgbNV1NAcM71zAvKP9pEtVW54oTMlQPBW9edstC5je8.jpg"
+                      },
+                      "isAnonymous": false
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "displayType": "venue",
+          "venue": {
+            "id": "542527d1498e8b3461cbb0eb",
+            "name": "Чебуречная #2",
+            "location": {
+              "address": "Центральный стадион профсоюзов",
+              "crossStreet": "Студенческая ул., 17",
+              "lat": 51.6727281401049,
+              "lng": 39.2027485370636,
+              "labeledLatLngs": [
+                {
+                  "label": "display",
+                  "lat": 51.6727281401049,
+                  "lng": 39.2027485370636
+                }
+              ],
+              "cc": "RU",
+              "city": "Voronezh",
+              "state": "Voronezh Oblast",
+              "country": "Russia",
+              "contextLine": "Voronezh, Russia",
+              "contextGeoId": 72057594038399981,
+              "formattedAddress": [
+                "<span itemprop=\"streetAddress\">&#1062;&#1077;&#1085;&#1090;&#1088;&#1072;&#1083;&#1100;&#1085;&#1099;&#1081; &#1089;&#1090;&#1072;&#1076;&#1080;&#1086;&#1085; &#1087;&#1088;&#1086;&#1092;&#1089;&#1086;&#1102;&#1079;&#1086;&#1074;<\/span> (&#1057;&#1090;&#1091;&#1076;&#1077;&#1085;&#1095;&#1077;&#1089;&#1082;&#1072;&#1103; &#1091;&#1083;., 17)",
+                "<span itemprop=\"addressLocality\">Voronezh<\/span>",
+                "Russia"
+              ]
+            },
+            "canonicalUrl": "https:\/\/foursquare.com\/v\/%D1%87%D0%B5%D0%B1%D1%83%D1%80%D0%B5%D1%87%D0%BD%D0%B0%D1%8F-2\/542527d1498e8b3461cbb0eb",
+            "canonicalPath": "\/v\/%D1%87%D0%B5%D0%B1%D1%83%D1%80%D0%B5%D1%87%D0%BD%D0%B0%D1%8F-2\/542527d1498e8b3461cbb0eb",
+            "categories": [
+              {
+                "id": "4bf58dd8d48988d16d941735",
+                "name": "Café",
+                "pluralName": "Cafés",
+                "shortName": "Café",
+                "icon": {
+                  "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/cafe_",
+                  "mapPrefix": "https:\/\/ss3.4sqi.net\/img\/categories_map\/food\/cafe",
+                  "suffix": ".png"
+                },
+                "primary": true
+              }
+            ],
+            "verified": false,
+            "restricted": true,
+            "stats": {
+              "checkinsCount": 222,
+              "usersCount": 111,
+              "tipCount": 0
+            },
+            "urlSig": "Q0DGcRIC5p3b4KfEuwAxybilGCU=",
+            "price": {
+              "tier": 1,
+              "message": "Cheap",
+              "currency": "\u20bd"
+            },
+            "dislike": false,
+            "ok": false,
+            "allowMenuUrlEdit": true,
+            "beenHere": {
+              "count": 0,
+              "marked": false,
+              "lastCheckinExpiredAt": 0
+            }
+          },
+          "id": "5a8146d76eda026f27dec233",
+          "photo": {
+            "id": "58789b228cb34e044d1a2220",
+            "createdAt": 1484299042,
+            "prefix": "https:\/\/igx.4sqi.net\/img\/general\/",
+            "suffix": "\/364042702_cGs7_TZCscc-uL7n6Ug6HwY2U0S9alYDIKdIr0e6mcA.jpg",
+            "width": 2592,
+            "height": 1944,
+            "user": {
+              "id": "364042702",
+              "firstName": "Андрей",
+              "lastName": "Михалев",
+              "gender": "male",
+              "canonicalUrl": "https:\/\/foursquare.com\/mihalev2805",
+              "canonicalPath": "\/mihalev2805",
+              "photo": {
+                "prefix": "https:\/\/igx.4sqi.net\/img\/user\/",
+                "suffix": "\/364042702-DDREALP1WA5TIIYE.jpg"
+              },
+              "isAnonymous": false
+            },
+            "visibility": "public"
+          },
+          "snippets": {
+            "count": 1,
+            "items": [
+              {}
+            ]
+          }
+        },
+        {
+          "displayType": "venue",
+          "venue": {
+            "id": "5268c4e7498ef482f91f8cca",
+            "name": "Мобильная кофейня Perfetto Caffe",
+            "location": {
+              "lat": 51.675993248164815,
+              "lng": 39.21520840145089,
+              "labeledLatLngs": [
+                {
+                  "label": "display",
+                  "lat": 51.675993248164815,
+                  "lng": 39.21520840145089
+                }
+              ],
+              "cc": "RU",
+              "city": "Voronezh",
+              "state": "Voronezh Oblast",
+              "country": "Russia",
+              "contextLine": "Voronezh, Russia",
+              "contextGeoId": 72057594038399981,
+              "formattedAddress": [
+                "<span itemprop=\"addressLocality\">Voronezh<\/span>",
+                "Russia"
+              ]
+            },
+            "canonicalUrl": "https:\/\/foursquare.com\/v\/%D0%BC%D0%BE%D0%B1%D0%B8%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F-%D0%BA%D0%BE%D1%84%D0%B5%D0%B9%D0%BD%D1%8F-perfetto-caffe\/5268c4e7498ef482f91f8cca",
+            "canonicalPath": "\/v\/%D0%BC%D0%BE%D0%B1%D0%B8%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F-%D0%BA%D0%BE%D1%84%D0%B5%D0%B9%D0%BD%D1%8F-perfetto-caffe\/5268c4e7498ef482f91f8cca",
+            "categories": [
+              {
+                "id": "4bf58dd8d48988d1e0931735",
+                "name": "Coffee Shop",
+                "pluralName": "Coffee Shops",
+                "shortName": "Coffee Shop",
+                "icon": {
+                  "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/coffeeshop_",
+                  "mapPrefix": "https:\/\/ss3.4sqi.net\/img\/categories_map\/food\/coffeeshop",
+                  "suffix": ".png"
+                },
+                "primary": true
+              }
+            ],
+            "verified": false,
+            "restricted": true,
+            "stats": {
+              "checkinsCount": 55,
+              "usersCount": 19,
+              "tipCount": 1
+            },
+            "urlSig": "pkNCUVX3kQjLIGnxk7IMCf3spaY=",
+            "price": {
+              "tier": 1,
+              "message": "Cheap",
+              "currency": "\u20bd"
+            },
+            "dislike": false,
+            "ok": false,
+            "allowMenuUrlEdit": true,
+            "beenHere": {
+              "count": 0,
+              "marked": false,
+              "lastCheckinExpiredAt": 0
+            }
+          },
+          "id": "5a8146d76eda026f27dec234",
+          "photo": {
+            "id": "5935868a4f0e586afca52d62",
+            "createdAt": 1496680074,
+            "prefix": "https:\/\/igx.4sqi.net\/img\/general\/",
+            "suffix": "\/416061892_cPKBr_UTxhsNuiaZej7Yi_MPfdjPOenww95I2AeXgjw.jpg",
+            "width": 1440,
+            "height": 1920,
+            "user": {
+              "id": "416061892",
+              "firstName": "Anton",
+              "lastName": "Sukhanov",
+              "gender": "male",
+              "canonicalUrl": "https:\/\/foursquare.com\/user\/416061892",
+              "canonicalPath": "\/user\/416061892",
+              "photo": {
+                "prefix": "https:\/\/igx.4sqi.net\/img\/user\/",
+                "suffix": "\/416061892_3qQ9Fqup_cWlupBQLLjAOJ7XlaLMKAV3tyhvsjSHGOgHmNWfiB9JV5O5eceQOYVfCPsUDykEe.jpg"
+              },
+              "isAnonymous": false
+            },
+            "visibility": "public"
+          },
+          "snippets": {
+            "count": 1,
+            "items": [
+              {
+                "detail": {
+                  "type": "tip",
+                  "object": {
+                    "id": "5271831511d2d29a27bb9531",
+                    "createdAt": 1383170837,
+                    "text": "Замечательный латте",
+                    "type": "user",
+                    "canonicalUrl": "https:\/\/foursquare.com\/item\/5271831511d2d29a27bb9531",
+                    "canonicalPath": "\/item\/5271831511d2d29a27bb9531",
+                    "likes": {
+                      "count": 2,
+                      "groups": [],
+                      "summary": "2 Likes"
+                    },
+                    "logView": true,
+                    "agreeCount": 2,
+                    "disagreeCount": 0,
+                    "user": {
+                      "id": "62926101",
+                      "firstName": "Anton",
+                      "lastName": "Vlasov",
+                      "gender": "male",
+                      "canonicalUrl": "https:\/\/foursquare.com\/druidvav",
+                      "canonicalPath": "\/druidvav",
+                      "photo": {
+                        "prefix": "https:\/\/igx.4sqi.net\/img\/user\/",
+                        "suffix": "\/3GZS1ZTFBUWZHQB2.jpg"
+                      },
+                      "isAnonymous": false
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "displayType": "venue",
+          "venue": {
+            "id": "4cb87a24035d236a5f51cd4e",
+            "name": "Вояж",
+            "location": {
+              "address": "ул. Мира, 2",
+              "lat": 51.6782502205111,
+              "lng": 39.205913543701165,
+              "labeledLatLngs": [
+                {
+                  "label": "display",
+                  "lat": 51.6782502205111,
+                  "lng": 39.205913543701165
+                }
+              ],
+              "postalCode": "394036",
+              "cc": "RU",
+              "city": "город Воронеж",
+              "state": "Voronezh Oblast",
+              "country": "Russia",
+              "contextLine": "город Воронеж, Russia",
+              "contextGeoId": -1413886699,
+              "formattedAddress": [
+                "<span itemprop=\"streetAddress\">&#1091;&#1083;. &#1052;&#1080;&#1088;&#1072;, 2<\/span>",
+                "<span itemprop=\"postalCode\">394036<\/span>, <span itemprop=\"addressLocality\">&#1075;&#1086;&#1088;&#1086;&#1076; &#1042;&#1086;&#1088;&#1086;&#1085;&#1077;&#1078;<\/span>",
+                "Russia"
+              ]
+            },
+            "canonicalUrl": "https:\/\/foursquare.com\/v\/%D0%B2%D0%BE%D1%8F%D0%B6\/4cb87a24035d236a5f51cd4e",
+            "canonicalPath": "\/v\/%D0%B2%D0%BE%D1%8F%D0%B6\/4cb87a24035d236a5f51cd4e",
+            "categories": [
+              {
+                "id": "4bf58dd8d48988d16d941735",
+                "name": "Café",
+                "pluralName": "Cafés",
+                "shortName": "Café",
+                "icon": {
+                  "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/cafe_",
+                  "mapPrefix": "https:\/\/ss3.4sqi.net\/img\/categories_map\/food\/cafe",
+                  "suffix": ".png"
+                },
+                "primary": true
+              }
+            ],
+            "verified": false,
+            "restricted": true,
+            "stats": {
+              "checkinsCount": 292,
+              "usersCount": 185,
+              "tipCount": 15
+            },
+            "urlSig": "5IA1d3lln53CDrEDkmzNdjV9pn4=",
+            "price": {
+              "tier": 1,
+              "message": "Cheap",
+              "currency": "\u20bd"
+            },
+            "dislike": false,
+            "ok": false,
+            "rating": 5.0,
+            "ratingColor": "FF9600",
+            "ratingSignals": 33,
+            "allowMenuUrlEdit": true,
+            "beenHere": {
+              "count": 0,
+              "marked": false,
+              "lastCheckinExpiredAt": 0
+            }
+          },
+          "id": "5a8146d76eda026f27dec235",
+          "photo": {
+            "id": "52fa0796498e1f997e5a09f2",
+            "createdAt": 1392117654,
+            "prefix": "https:\/\/igx.4sqi.net\/img\/general\/",
+            "suffix": "\/27915228_up5ncNZa-DYf0k8I2YPZsSXPvLnQEPXE5BQwfFoXm-I.jpg",
+            "width": 960,
+            "height": 717,
+            "user": {
+              "id": "27915228",
+              "firstName": "Евгений",
+              "lastName": "Же",
+              "gender": "male",
+              "canonicalUrl": "https:\/\/foursquare.com\/user\/27915228",
+              "canonicalPath": "\/user\/27915228",
+              "photo": {
+                "prefix": "https:\/\/igx.4sqi.net\/img\/user\/",
+                "suffix": "\/H1HGOJQ2IFI5MKXI.jpg"
+              },
+              "isAnonymous": false
+            },
+            "visibility": "public"
+          },
+          "snippets": {
+            "count": 1,
+            "items": [
+              {
+                "detail": {
+                  "type": "tip",
+                  "object": {
+                    "id": "5297737111d2a2b0369d7ed2",
+                    "createdAt": 1385657201,
+                    "text": "Borsh is good, pork is tasteless,cheese cake is good, price is greatly below market. Service is so so. Live music vary stiles badly. But the voice is good.  U may pay with your card.",
+                    "type": "user",
+                    "canonicalUrl": "https:\/\/foursquare.com\/item\/5297737111d2a2b0369d7ed2",
+                    "canonicalPath": "\/item\/5297737111d2a2b0369d7ed2",
+                    "logView": true,
+                    "agreeCount": 0,
+                    "disagreeCount": 0,
+                    "user": {
+                      "id": "67083866",
+                      "firstName": "Nikolay",
+                      "lastName": "Volosnikov",
+                      "gender": "male",
+                      "canonicalUrl": "https:\/\/foursquare.com\/nikvolosnikov",
+                      "canonicalPath": "\/nikvolosnikov",
+                      "photo": {
+                        "prefix": "https:\/\/igx.4sqi.net\/img\/user\/",
+                        "suffix": "\/NSFAI0C5XQJEGY0P.jpg"
+                      },
+                      "isAnonymous": false
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "displayType": "venue",
+          "venue": {
+            "id": "4de9e70e22713dd9738533e4",
+            "name": "Вермишель №7",
+            "location": {
+              "address": "просп. Революции, 10а",
+              "lat": 51.67784773017144,
+              "lng": 39.21325206756592,
+              "labeledLatLngs": [
+                {
+                  "label": "display",
+                  "lat": 51.67784773017144,
+                  "lng": 39.21325206756592
+                }
+              ],
+              "postalCode": "394036",
+              "cc": "RU",
+              "city": "Voronezh",
+              "state": "Voronezh Oblast",
+              "country": "Russia",
+              "contextLine": "Voronezh, Russia",
+              "contextGeoId": 72057594038399981,
+              "formattedAddress": [
+                "<span itemprop=\"streetAddress\">&#1087;&#1088;&#1086;&#1089;&#1087;. &#1056;&#1077;&#1074;&#1086;&#1083;&#1102;&#1094;&#1080;&#1080;, 10&#1072;<\/span>",
+                "<span itemprop=\"postalCode\">394036<\/span>, <span itemprop=\"addressLocality\">Voronezh<\/span>",
+                "Russia"
+              ]
+            },
+            "canonicalUrl": "https:\/\/foursquare.com\/v\/%D0%B2%D0%B5%D1%80%D0%BC%D0%B8%D1%88%D0%B5%D0%BB%D1%8C-7\/4de9e70e22713dd9738533e4",
+            "canonicalPath": "\/v\/%D0%B2%D0%B5%D1%80%D0%BC%D0%B8%D1%88%D0%B5%D0%BB%D1%8C-7\/4de9e70e22713dd9738533e4",
+            "categories": [
+              {
+                "id": "4bf58dd8d48988d16d941735",
+                "name": "Café",
+                "pluralName": "Cafés",
+                "shortName": "Café",
+                "icon": {
+                  "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/cafe_",
+                  "mapPrefix": "https:\/\/ss3.4sqi.net\/img\/categories_map\/food\/cafe",
+                  "suffix": ".png"
+                },
+                "primary": true
+              }
+            ],
+            "verified": false,
+            "restricted": true,
+            "stats": {
+              "checkinsCount": 971,
+              "usersCount": 514,
+              "tipCount": 18
+            },
+            "urlSig": "TGVdeL0va6nyhZfnrZOUG80WTdE=",
+            "price": {
+              "tier": 1,
+              "message": "Cheap",
+              "currency": "\u20bd"
+            },
+            "dislike": false,
+            "ok": false,
+            "rating": 4.9,
+            "ratingColor": "FF6701",
+            "ratingSignals": 82,
+            "allowMenuUrlEdit": true,
+            "beenHere": {
+              "count": 0,
+              "marked": false,
+              "lastCheckinExpiredAt": 0
+            }
+          },
+          "id": "5a8146d76eda026f27dec236",
+          "photo": {
+            "id": "51dedcc9498e5a4772984e99",
+            "createdAt": 1373560009,
+            "prefix": "https:\/\/igx.4sqi.net\/img\/general\/",
+            "suffix": "\/34264811_0pzfZyCx_wjZPOVoHHaxq6iM5RdcAxJhjD5wCzkKY2Y.jpg",
+            "width": 720,
+            "height": 960,
+            "user": {
+              "id": "34264811",
+              "firstName": "Александр",
+              "lastName": "Козлов",
+              "gender": "male",
+              "canonicalUrl": "https:\/\/foursquare.com\/user\/34264811",
+              "canonicalPath": "\/user\/34264811",
+              "photo": {
+                "prefix": "https:\/\/igx.4sqi.net\/img\/user\/",
+                "suffix": "\/SO1OPIBGUGQWBUQS.jpg"
+              },
+              "isAnonymous": false
+            },
+            "visibility": "public"
+          },
+          "snippets": {
+            "count": 1,
+            "items": [
+              {
+                "detail": {
+                  "type": "tip",
+                  "object": {
+                    "id": "5140d3ace4b0359cc5f37f10",
+                    "createdAt": 1363202988,
+                    "text": "Очень вкусные блины с сёмгой и сгущёнкой!!!",
+                    "type": "user",
+                    "canonicalUrl": "https:\/\/foursquare.com\/item\/5140d3ace4b0359cc5f37f10",
+                    "canonicalPath": "\/item\/5140d3ace4b0359cc5f37f10",
+                    "likes": {
+                      "count": 1,
+                      "groups": [],
+                      "summary": "1 Like"
+                    },
+                    "logView": true,
+                    "agreeCount": 1,
+                    "disagreeCount": 0,
+                    "user": {
+                      "id": "35807197",
+                      "firstName": "Андрей",
+                      "lastName": "Быченко",
+                      "gender": "male",
+                      "canonicalUrl": "https:\/\/foursquare.com\/user\/35807197",
+                      "canonicalPath": "\/user\/35807197",
+                      "photo": {
+                        "prefix": "https:\/\/igx.4sqi.net\/img\/user\/",
+                        "suffix": "\/-NGL3YT4X3YSLASUX.jpg"
+                      },
+                      "isAnonymous": false
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "totalResults": 16
+    },
+    "context": {
+      "searchLocationNearYou": false,
+      "searchLocationMapBounds": true,
+      "searchLocationType": "MapBounds",
+      "currentLocation": {
+        "what": "",
+        "where": "",
+        "feature": {
+          "cc": "RU",
+          "name": "Voronezh",
+          "displayName": "Voronezh",
+          "woeType": 7,
+          "slug": "voronezh-russia",
+          "id": "geonameid:472045",
+          "longId": "72057594038399981",
+          "geometry": {
+            "center": {
+              "lat": 51.67204,
+              "lng": 39.1843
+            },
+            "bounds": {
+              "ne": {
+                "lat": 51.72650146484375,
+                "lng": 39.2371940612793
+              },
+              "sw": {
+                "lat": 51.61724853515625,
+                "lng": 39.091835021972656
+              }
+            }
+          }
+        },
+        "parents": []
+      },
+      "relatedNeighborhoods": [],
+      "geoParams": {
+        "ne": "51.68383814650335,39.255738258361816",
+        "sw": "51.66845638235381,39.19694423675537"
+      },
+      "geoBounds": {
+        "box": {
+          "ne": {
+            "lat": 51.68383814650335,
+            "lng": 39.255738258361816
+          },
+          "sw": {
+            "lat": 51.66845638235381,
+            "lng": 39.19694423675537
+          }
+        }
+      }
+    },
+    "headerFullLocation": "Voronezh",
+    "headerLocationGranularity": "city",
+    "suggestedBounds": {
+      "ne": {
+        "lat": 51.68383814650335,
+        "lng": 39.255738258361816
+      },
+      "sw": {
+        "lat": 51.66845638235381,
+        "lng": 39.19694423675537
+      }
+    }
+  }
+}
