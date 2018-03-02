@@ -3,7 +3,6 @@ import scrapy
 import json
 
 city_names = [c['name'].lower() for c in json.load(open('./city-list-big-clean.json', 'r'))]
-print(city_names, len(city_names))
 
 class WeatherSpider(scrapy.Spider):
     name = 'weather'

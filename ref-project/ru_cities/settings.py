@@ -22,7 +22,7 @@ FEED_EXPORT_ENCODING = "utf-8"
 #USER_AGENT = 'ru_cities (+http://www.yourdomain.com)'
 
 # Obey robots.txt rules
-ROBOTSTXT_OBEY = True
+ROBOTSTXT_OBEY = False
 
 # Configure maximum concurrent requests performed by Scrapy (default: 16)
 #CONCURRENT_REQUESTS = 32
