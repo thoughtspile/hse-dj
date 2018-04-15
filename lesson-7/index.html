@@ -16,6 +16,16 @@
         height: 500px;
         width: 100%;
       }
+      .axis path,
+      .axis line {
+        fill: none;
+        stroke: #000;
+        shape-rendering: crispEdges;
+      }
+
+      .dot {
+        stroke: #000;
+      }
     </style>
 
     <link
@@ -29,7 +39,11 @@
       <h1>Coffee shops in Russia</h1>
 
       <section>
-        <h2>This is a coffee map of Russia</h2>
+        <h2>
+          This is a coffee map of Russia, colored by
+          <select id="color-by">
+          </select>
+        </h2>
         <div id="map-vis"></div>
       </section>
 

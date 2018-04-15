@@ -27,7 +27,18 @@ function drawLayer(data, options = {}) {
 }
 
 function drawStats(data, container) {
-  console.log(data);
+  const width = container.getBoundingClintRect().width;
+  const height = container.getBoundingClintRect().height;
+
+  var x = d3.scaleLinear().range([0, width]);
+  var y = d3.scaleLinear().range([height, 0]);
+  var xAxis = d3.axisBottom().scale(x);
+  var yAxis = d3.axisLeft().scale(y);
+
+  var wrap = d3.select(container)
+    .attr("width", width)
+    .attr("height", height)
+    .append("g");
 }
 
 function loadData() {
@@ -37,10 +48,11 @@ function loadData() {
 
 const state = {
   data: [],
-  colorBy: d => d['price.tier'],
+  colorBy: () => null,
   map: null,
   layer: null,
 };
+
 const actions = {
   drawMap() {
     if (state.layer) state.map.removeLayer(state.layer);
@@ -84,7 +96,22 @@ const actions = {
       state.data = data;
 
       this.initMap();
-      this.drawMap();
+
+      const colorBySelect = document.getElementById('color-by');
+      Object.keys(data[0]).filter(key => {
+        return data.some(d => typeof d[key] === 'number');
+      }).forEach(key => {
+        const op = document.createElement('option');
+        op.value = key;
+        op.innerHTML = key;
+        colorBySelect.appendChild(op);
+      });
+      colorBySelect.value = 'rating';
+      const onColorByChange = () => actions.setColorBy(colorBySelect.value);
+      colorBySelect.addEventListener('change', onColorByChange);
+      // also draws map
+      onColorByChange();
+
 
       drawStats(data, document.getElementById('stat-vis'));
     });
