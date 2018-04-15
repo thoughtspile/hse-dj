@@ -37,7 +37,7 @@ function cafesByChain(data) {
     }))
     .entries(data)
     .filter(({ value }) => {
-      return (value.count > 3 || value.byCity.length > 2) && value.meanRating;
+      return (value.count > 5 || value.byCity.length > 3) && value.meanRating;
     })
     .map(({ key, value }) => {
       value.name = key;
@@ -58,13 +58,24 @@ function drawStats(data, container) {
     .attr("height", height)
     .append("g");
 
-  var x = d3.scaleLinear().range([labelWidth, width]).domain([0, 10]);
+  const plotSplits = [
+    labelWidth + (width - labelWidth) / 3,
+    labelWidth + (width - labelWidth) * 2 / 3,
+  ];
+  var xRating = d3.scaleLinear()
+    .range([labelWidth, plotSplits[0]])
+    .domain([0, 10]);
+  var xChainSize = d3.scaleLinear()
+    .range([plotSplits[0], plotSplits[1]])
+    .domain([0, d3.max(byChain, c => c.cafes.length) * 1.1]);
+  var xCityCount = d3.scaleLinear()
+    .range([plotSplits[1], width])
+    .domain([0, d3.max(byChain, c => c.byCity.length) * 1.1]);
   var y = d3.scaleBand()
     .range([height, 0])
+    .round(true)
     .domain(byChain.map(c => c.name))
-    .paddingInner(1)
-    .paddingOuter(1);
-  var xAxis = d3.axisBottom().scale(x);
+    .paddingInner(1);
   var yAxis = d3.axisLeft().scale(y);
 
   wrap.append("g")
@@ -77,19 +88,50 @@ function drawStats(data, container) {
       .attr("dy", "0.71em")
       .attr("text-anchor", "end")
       .text("Frequency");
+  plotSplits.forEach(plotSplit => {
+    wrap.append('line')
+      .attr("class", "pop")
+      .attr('x1', plotSplit)
+      .attr('x2', plotSplit)
+      .attr('y1', 0)
+      .attr('y2', '100%')
+  });
+  wrap.append('text').text('Average rating')
+    .attr('transform', `translate(${labelWidth + 10})`);
+  wrap.append('text').text('Cafe count')
+    .attr('transform', `translate(${plotSplits[0] + 10})`);
+  wrap.append('text').text('City count')
+    .attr('transform', `translate(${plotSplits[1] + 10})`);
 
-  const chainEnter = wrap.selectAll('.dot').data(byChain).enter();
+  const sel = wrap.selectAll('.dot').data(byChain);
+  const chainEnter = sel.enter().append('g');
   chainEnter.append('line')
     .attr('class', 'pop')
-    .attr('x1', x(0))
-    .attr('x2', d => x(d.meanRating))
+    .attr('x1', xRating(0))
+    .attr('x2', width)
     .attr('y1', d => y(d.name))
     .attr('y2', d => y(d.name));
   chainEnter.append('circle')
     .attr('class', 'dot')
-    .attr('r', 1)
-    .attr('cx', d => x(d.meanRating))
+    .attr('r', 3)
+    .attr('cx', d => xRating(d.meanRating))
     .attr('cy', d => y(d.name));
+  chainEnter.append('circle')
+    .attr('class', 'dot')
+    .attr('r', 3)
+    .attr('cx', d => xChainSize(d.cafes.length))
+    .attr('cy', d => y(d.name));
+  chainEnter.append('circle')
+    .attr('class', 'dot')
+    .attr('r', 3)
+    .attr('cx', d => xCityCount(d.byCity.length))
+    .attr('cy', d => y(d.name));
+
+  chainEnter.on('mouseenter', function (d) {
+    d3.select(this).classed('active', true);
+  }).on('mouseout', function (d) {
+    d3.select(this).classed('active', false);
+  });
 }
 
 function loadData() {

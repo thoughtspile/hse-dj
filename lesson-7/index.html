@@ -17,6 +17,9 @@
         width: 100%;
         margin-bottom: 50px;
       }
+      #stat-vis {
+        overflow: visible;
+      }
       .axis path,
       .axis line {
         fill: none;
@@ -24,14 +27,26 @@
         shape-rendering: crispEdges;
       }
 
+      text {
+        font-size: 10px;
+        font-family: 'PT Serif';
+      }
+
       .dot {
-        fill: #000;
+        fill: #777;
         stroke: none;
+        cursor: pointer;
       }
       line.pop {
-        shape-rendering: crispEdges;
-        stroke-width: 1px;
+        stroke-width: 2px;
         stroke: #ddd;
+        cursor: pointer;
+      }
+      .active .dot {
+        fill: red;
+      }
+      .active line.pop {
+        stroke: orange;
       }
     </style>
 
