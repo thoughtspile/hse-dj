@@ -135,7 +135,7 @@ function drawStats(data, container) {
 }
 
 function loadData() {
-  return fetch('../city-cafes.json').then(d => d.json());
+  return fetch('./city-cafes.json').then(d => d.json());
 }
 
 
