@@ -26,19 +26,70 @@ function drawLayer(data, options = {}) {
   return layer;
 }
 
-function drawStats(data, container) {
-  const width = container.getBoundingClintRect().width;
-  const height = container.getBoundingClintRect().height;
+function cafesByChain(data) {
+  return d3.nest()
+    .key(d => d.name)
+    .rollup(cafes => ({
+      cafes,
+      meanRating: d3.mean(cafes, c => c.rating),
+      count: cafes.length,
+      byCity: d3.nest().key(c => c.city).rollup(ct => ct.length).entries(cafes)
+    }))
+    .entries(data)
+    .filter(({ value }) => {
+      return (value.count > 3 || value.byCity.length > 2) && value.meanRating;
+    })
+    .map(({ key, value }) => {
+      value.name = key;
+      return value;
+    })
+    .sort((a, b) => a.cafes.length - b.cafes.length);
+}
 
-  var x = d3.scaleLinear().range([0, width]);
-  var y = d3.scaleLinear().range([height, 0]);
-  var xAxis = d3.axisBottom().scale(x);
-  var yAxis = d3.axisLeft().scale(y);
+function drawStats(data, container) {
+  const byChain = cafesByChain(data);
+
+  const labelWidth = 140;
+  const width = container.getBoundingClientRect().width;
+  const height = 10 * byChain.length;
 
   var wrap = d3.select(container)
     .attr("width", width)
     .attr("height", height)
     .append("g");
+
+  var x = d3.scaleLinear().range([labelWidth, width]).domain([0, 10]);
+  var y = d3.scaleBand()
+    .range([height, 0])
+    .domain(byChain.map(c => c.name))
+    .paddingInner(1)
+    .paddingOuter(1);
+  var xAxis = d3.axisBottom().scale(x);
+  var yAxis = d3.axisLeft().scale(y);
+
+  wrap.append("g")
+    .attr("class", "axis axis--y")
+    .attr('transform', `translate(${labelWidth})`)
+    .call(d3.axisLeft(y))
+      .append("text")
+      .attr("transform", "rotate(-90)")
+      .attr("y", 6)
+      .attr("dy", "0.71em")
+      .attr("text-anchor", "end")
+      .text("Frequency");
+
+  const chainEnter = wrap.selectAll('.dot').data(byChain).enter();
+  chainEnter.append('line')
+    .attr('class', 'pop')
+    .attr('x1', x(0))
+    .attr('x2', d => x(d.meanRating))
+    .attr('y1', d => y(d.name))
+    .attr('y2', d => y(d.name));
+  chainEnter.append('circle')
+    .attr('class', 'dot')
+    .attr('r', 1)
+    .attr('cx', d => x(d.meanRating))
+    .attr('cy', d => y(d.name));
 }
 
 function loadData() {

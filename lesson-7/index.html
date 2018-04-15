@@ -13,18 +13,25 @@
         font-family: 'PT Serif', serif;
       }
       #stat-vis, #map-vis {
-        height: 500px;
+        min-height: 500px;
         width: 100%;
+        margin-bottom: 50px;
       }
       .axis path,
       .axis line {
         fill: none;
-        stroke: #000;
+        stroke: #ddd;
         shape-rendering: crispEdges;
       }
 
       .dot {
-        stroke: #000;
+        fill: #000;
+        stroke: none;
+      }
+      line.pop {
+        shape-rendering: crispEdges;
+        stroke-width: 1px;
+        stroke: #ddd;
       }
     </style>
 
