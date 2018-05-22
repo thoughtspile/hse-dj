@@ -22,6 +22,8 @@ function drawLayer(data, options = {}) {
       radius: 20
     }).addTo(layer);
     circle.bindPopup(renderCafePopup(d));
+    circle.on('mouseover', () => circle.openPopup());
+    circle.on('mouseout', () => circle.closePopup());
   });
   return layer;
 }
